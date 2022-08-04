@@ -117,11 +117,12 @@
         </div>
 
         <div class="contact-bottom">
-          <form class="form">
-            <input type="text" placeholder="Your Name" />
-            <input type="email" placeholder="Your Email" />
-            <input type="text" placeholder="Subject" />
-            <textarea rows="9" placeholder="Message"></textarea>
+          <form class="form" action="https://formspree.io/f/mpznaobj"
+          method="POST" >
+            <input type="text" placeholder="Your Name" name="Name"/>
+            <input type="email" placeholder="Your Email" name="email" />
+            <input type="text" placeholder="Subject" name="Subject" />
+            <textarea rows="9" placeholder="Message"  name="Message"></textarea>
             <input type="submit" class="btn" value="Send Message" />
           </form>
 
@@ -144,7 +145,7 @@
     <!-- end of main -->
 
     <!-- footer -->
-    <footer class="footer">
+    <footer class="footer" >
       <div class="footer-container container">
         <div>
           <h2>STUDIO</h2>
